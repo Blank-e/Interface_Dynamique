@@ -1,0 +1,96 @@
+#navbar{
+    display: flex;
+    background-color: #006680;
+    justify-content: center;
+}
+#navbar a{
+    
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #006680;
+    color: #000000;
+    border-radius: 10px;
+    border: #000000 1px solid;
+    text-decoration: none;
+    font-size: larger;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+#navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+#layout{
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 500px 520px;
+    grid-column-gap: 40px;
+    padding-left: 140px;
+}
+#layout h2{
+    text-align: center;
+    color: #006680;
+    font-size: x-large;
+
+}
+#partieG img{
+    padding: 10px;
+}
+#layout select{
+    width: 150px ;
+}
+
+#layout #formulaire{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 180px 180px 200px;
+}
+#boxed #menu_deroulant{
+    border: 2px solid;
+    border-color: #006680;
+
+}
+#pass{
+    border: 2px solid;
+    border-color: #006680;
+    border-radius: 7px;
+}
+#layout p{
+    color: #006680;
+    font-size: larger;
+    font-weight: bold;
+}
+#layout ol{
+    color: #006680;
+    font-size: larger;
+    font-weight: bold;
+    list-style-type: none;
+}
+#formulaire label{
+    color: #006680;
+    font-size: medium;
+    display: inline;
+}
+#layout #boxed{
+    border: #006680 solid 2px;
+    border-radius: 7px;
+    padding-left:3px ;
+}
+footer{
+    height: 30px;
+    background-color: #006680;
+}
+footer h5{
+    color: #ffffff;
+    text-align: center;
+}
+footer img{
+    justify-items: right;
+    height: 20px;
+    width: 50px;
+}

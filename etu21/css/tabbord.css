@@ -1,0 +1,135 @@
+#navbar{
+    display: flex;
+    background-color: #006680;
+    justify-content: center;
+}
+#navbar a{
+    
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #006680;
+    color: #000000;
+    border-radius: 10px;
+    border: #000000 1px solid;
+    text-decoration: none;
+    font-size: larger;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+#navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+body h3{
+    text-align: center;
+    color:#006680;
+    
+    padding-bottom: 3px;
+}
+#layout{
+    display: grid;
+    grid-template-rows: 220px 220px;
+    grid-template-columns: 500px 500px;
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+    padding-left: 140px;
+}
+#boxed1{
+    display: grid ;
+    grid-template-columns: 500px;
+    grid-template-rows: 50px 130px 40px ;
+    border: #006680 solid 2px;
+    border-radius: 7px;
+    
+    
+}
+#entete {
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    color:#ffffff;
+    background-color: #006680;
+    padding-bottom: 5px;
+    border-radius: 2px;
+}
+#corps{
+    display: flex;
+    justify-content: space-around;
+    background-color: #add8e6;
+
+}
+
+
+#corps p{
+    color: #000000;
+    font-size: large;
+
+}
+#pied{
+    display: flex;
+    background-color: #006680;
+    border-radius: 2px;
+}
+#boxed2{
+    display: grid ;
+    grid-template-columns: 500px;
+    grid-template-rows: 50px 130px 40px ;
+    border: #006680 solid 2px;
+    border-radius: 7px;
+    
+    
+}
+#entete2{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    color:#ffffff;
+    background-color: #006680;
+    padding-bottom: 5px;
+    border-radius: 2px;
+}
+#corps2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #add8e6;
+
+}
+
+
+#corps2 p{
+    color: #000000;
+    font-size: large;
+}
+p label{
+    width: 50px;
+    height: 25px;
+    border: solid 1px;
+    border-color: #000000;
+    align-items: left;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 50%;
+}
+#pied2{
+    display: flex;
+    background-color: #006680;
+    border-radius: 2px;
+}
+footer{
+    height: 30px;
+    background-color: #006680;
+}
+footer h5{
+    color: #ffffff;
+    text-align: center;
+}
+footer img{
+    justify-items: right;
+    height: 20px;
+    width: 50px;
+}
